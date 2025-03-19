@@ -96,34 +96,34 @@ function Header() {
               id="basic-nav-dropdown"
               show={isresized?isresized:undefined}
             >
-              <NavDropdown.Item as={Link} to="/about-us"  onClick={() => {
+              <NavDropdown.Item as={Link} to="about-us"  onClick={() => {
               document
           setopen(()=>false)
             }}>
                 About us
               </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/OurTeam" onClick={() => {
+              <NavDropdown.Item as={Link} to="OurTeam" onClick={() => {
                setopen(()=>false)
             }}>
                 Our Team
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/FaQ" onClick={() => {
+              <NavDropdown.Item as={Link} to="FaQ" onClick={() => {
                setopen(()=>false)
             }}>
                 FAQ`s
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Booking" onClick={() => {
+              <NavDropdown.Item as={Link} to="Booking" onClick={() => {
                setopen(()=>false)
             }}>
                 Booking
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Erorr404" onClick={() => {
+              <NavDropdown.Item as={Link} to="Erorr404" onClick={() => {
                setopen(()=>false)
             }}>
                 Erorr 404
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/register" onClick={() => {
+              <NavDropdown.Item as={Link} to="register" onClick={() => {
               setopen(()=>false)
             }}>
                 login/register
@@ -136,12 +136,12 @@ function Header() {
               show={isresized?isresized:undefined}
              
             >
-              <NavDropdown.Item as={Link} to="/service" onClick={() => {
+              <NavDropdown.Item as={Link} to="service" onClick={() => {
               setopen(()=>false)
             }}>
                 service
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/servicedetails" onClick={() => {
+              <NavDropdown.Item as={Link} to="servicedetails" onClick={() => {
              setopen(()=>false)
             }}>
                 service detail
@@ -154,18 +154,18 @@ function Header() {
               show={isresized?isresized:undefined}
             
             >
-              <NavDropdown.Item as={Link} to="/Blogs" onClick={() => {
+              <NavDropdown.Item as={Link} to="Blogs" onClick={() => {
                setopen(()=>false)
             }}>
                 Blogs
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Blogdetails" onClick={() => {
+              <NavDropdown.Item as={Link} to="Blogdetails" onClick={() => {
               setopen(()=>false)
             }}>
                 Blog details
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/contactus" onClick={() => {
+            <Nav.Link as={Link} to="contactus" onClick={() => {
               setopen(()=>false)
             }}>
               Contact Us
@@ -178,7 +178,7 @@ function Header() {
                <span>(+01) 999 888 777</span>
               </a>
             </div>
-            <Nav.Link as={Link} to={"/contactus"} onClick={() => {
+            <Nav.Link as={Link} to={"contactus"} onClick={() => {
              setopen(()=>false)
             }}>
 
