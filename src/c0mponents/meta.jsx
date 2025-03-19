@@ -6,7 +6,7 @@ const MetaTags = ({title}) => {
       {/* 🔹 Open Graph (Facebook, WhatsApp) */}
       <meta property="og:title" content="MediTro-practicing" />
       <meta property="og:description" content="MediTro template redeigning practicing" />
-      <meta property="og:image" content="https://github.com/hamzabatayneh0y0/MediTro-Template-Practicing/4552998.png" />
+      <meta property="og:image" content="https://github.com/hamzabatayneh0y0/MediTro-Template-Practicing/blob/main/public/4552998.png" />
       <meta property="og:url" content="https://github.com/hamzabatayneh0y0/MediTro-Template-Practicing/" />
       <meta property="og:type" content="website" />
 
@@ -14,7 +14,7 @@ const MetaTags = ({title}) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="MediTro-practicing" />
       <meta name="twitter:description" content="MediTro template redeigning practicing" />
-      <meta name="twitter:image" content="https://github.com/hamzabatayneh0y0/MediTro-Template-Practicing/4552998.png" />
+      <meta name="twitter:image" content="https://github.com/hamzabatayneh0y0/MediTro-Template-Practicing/blob/main/public/4552998.png" />
 
       {/* 🔹 Meta Tags for SEO */}
       <meta name="description" content="MediTro template redesigning practicing" />
