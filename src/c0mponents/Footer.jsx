@@ -17,21 +17,21 @@ function Footer(){
                 </div>
                 <div className="quicklinks col-6 col-lg-3 c">
                     <h2 className="title">Quick Links</h2>
-                    <Link to={"about-us"}>About Us</Link>
-                    <Link to={"service"}>services</Link>
-                    <Link to={"Booking"}>Booking</Link>
-                    <Link to={"FaQ"}>Faq`s</Link>
-                    <Link to={"Blogs"}>Blogs</Link>
-                    <Link to={"OurTeam"}>Our Team</Link>
+                    <Link to={"/about-us"}>About Us</Link>
+                    <Link to={"/service"}>services</Link>
+                    <Link to={"/Booking"}>Booking</Link>
+                    <Link to={"/FaQ"}>Faq`s</Link>
+                    <Link to={"/Blogs"}>Blogs</Link>
+                    <Link to={"/OurTeam"}>Our Team</Link>
                 </div>
                 <div className="ourservice col-6 col-lg-3 c">
                     <h2 className="title">Our Service</h2>
-                    <Link to={"servicedetails"}>Dental Care</Link>
-                    <Link to={"servicedetails"}>Cardiac Clinic</Link>
-                    <Link to={"servicedetails"}>Message Therapy</Link>
-                    <Link to={"servicedetails"}>Cardiology</Link>
-                    <Link to={"servicedetails"}>Precise Diagnosis</Link>
-                    <Link to={"servicedetails"}>Ambulace Services</Link>
+                    <Link to={"/servicedetails"}>Dental Care</Link>
+                    <Link to={"/servicedetails"}>Cardiac Clinic</Link>
+                    <Link to={"/servicedetails"}>Message Therapy</Link>
+                    <Link to={"/servicedetails"}>Cardiology</Link>
+                    <Link to={"/servicedetails"}>Precise Diagnosis</Link>
+                    <Link to={"/servicedetails"}>Ambulace Services</Link>
                 </div>
                 <div className="subscribe col-md-6 col-lg-3 c">
                 <h2 className="title">Subcribe</h2>
