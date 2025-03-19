@@ -36,22 +36,22 @@ useEffect(()=>{
       <Routes>
       <Route path="/" element={<Layout/>}>
         <Route index element={<Home/>}/>
-          <Route path="#/Blogs" element={<Blogs/>} />
-          <Route path="#/Blogdetails" element={<BlogDetails/>} />
-          <Route path="#/OurTeam" element={<Ourteam/>} />
-          <Route path="#/FaQ" element={<FAQs/>} />
-          <Route path="#/Booking" element={<Booking/>} />
-          <Route path="#/about-us" element={<Aboutus />} />
-          <Route path="#/service" element={<Service />} />
-          <Route path="#/servicedetails" element={<Servicedetails />} />
-          <Route path="#/contactus" element={<Contactus />} />
+          <Route path="/Blogs" element={<Blogs/>} />
+          <Route path="/Blogdetails" element={<BlogDetails/>} />
+          <Route path="/OurTeam" element={<Ourteam/>} />
+          <Route path="/FaQ" element={<FAQs/>} />
+          <Route path="/Booking" element={<Booking/>} />
+          <Route path="/about-us" element={<Aboutus />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/servicedetails" element={<Servicedetails />} />
+          <Route path="/contactus" element={<Contactus />} />
 
 
           <Route path="*" element={<Error404/>} />
           </Route>
-          <Route path="#/register" element={<Register/>} />
-          <Route path="#/forgot" element={<Forgot />} />
-          <Route path="#/newuser" element={<Newuser />} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/forgot" element={<Forgot />} />
+          <Route path="/newuser" element={<Newuser />} />
         
       </Routes>
    <span className="gotoup" style={{display:d?"block":"none"}} onClick={()=>{ 
