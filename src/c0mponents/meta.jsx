@@ -9,6 +9,8 @@ const MetaTags = ({title}) => {
       <meta property="og:title" content="MediTro-practicing" />
       <meta property="og:description" content="MediTro template redesigning practicing" />
       <meta property="og:image" content="https://meditro-template-practicing.netlify.app/4552998.png" />
+      <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
       <meta property="og:url" content="https://meditro-template-practicing.netlify.app/" />
       <meta property="og:type" content="website" />
 
