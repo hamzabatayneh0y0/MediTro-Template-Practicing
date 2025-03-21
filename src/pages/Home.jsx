@@ -27,15 +27,17 @@ import { faTruckMedical,faBedPulse,faSyringe,faPlus,faStethoscope } from "@forta
 import Testimonialcomponent from "../c0mponents/testimonialcomponent"
 import LatestNews from "../c0mponents/LatestNews"
 import MetaTags from "../c0mponents/meta"
+import { Helmet } from "react-helmet-async"
+
 
 // import w from "../../public/vite.svg"
 
 function Home(){
- 
-
+  
     return(
      <>
       <MetaTags title={"MediTro"} des={" MediTro"}/>
+      
 
 <div className="home">
     {/* landing-section */}
