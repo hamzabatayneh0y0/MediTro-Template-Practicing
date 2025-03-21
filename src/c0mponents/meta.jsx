@@ -8,7 +8,7 @@ const MetaTags = ({title}) => {
       {/* 🔹 Open Graph (Facebook, WhatsApp) */}
       <meta property="og:title" content="MediTro-practicing" />
       <meta property="og:description" content="MediTro template redesigning practicing" />
-      <meta property="og:image" content="https://meditro-template-practicing.netlify.app/4552998.png" />
+      <meta property="og:image" content="https://i.postimg.cc/QdNn9qGk/4552998.png" />
       <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
       <meta property="og:url" content="https://meditro-template-practicing.netlify.app/?=v1" />
@@ -18,7 +18,7 @@ const MetaTags = ({title}) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="MediTro-practicing" />
       <meta name="twitter:description" content="MediTro template redesigning practicing" />
-      <meta name="twitter:image" content="https://meditro-template-practicing.netlify.app/4552998.png" />
+      <meta name="twitter:image" content="https://i.postimg.cc/QdNn9qGk/4552998.png" />
 
       {/* 🔹 Meta Tags for SEO */}
       <meta name="description" content="MediTro template redesigning practicing" />
