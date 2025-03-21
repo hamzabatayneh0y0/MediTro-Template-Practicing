@@ -11,7 +11,7 @@ const MetaTags = ({title}) => {
       <meta property="og:image" content="https://meditro-template-practicing.netlify.app/4552998.png" />
       <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-      <meta property="og:url" content="https://meditro-template-practicing.netlify.app/" />
+      <meta property="og:url" content="https://meditro-template-practicing.netlify.app/?=v1" />
       <meta property="og:type" content="website" />
 
       {/* 🔹 Twitter Card */}
