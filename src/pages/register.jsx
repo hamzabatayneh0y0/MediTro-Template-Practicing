@@ -8,7 +8,7 @@ function Register(){
 
     return(
      <>
-      <MetaTags title={"register"}/>
+      <MetaTags title={"register"} des={" register"}/>
 
 <div className="register">
        <div className="content py-5">

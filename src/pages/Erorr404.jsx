@@ -12,7 +12,7 @@ function Erorr404(){
     }
     return(
       <>
-      <MetaTags title={"Error404"} />
+      <MetaTags title={"Error404"} des={" Error404"} />
         <div className="erorr">
                <Pageheader name={"Page Not Found"}/>
                <div className="content py-5">

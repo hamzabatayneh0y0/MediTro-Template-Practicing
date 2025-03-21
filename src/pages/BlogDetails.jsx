@@ -31,7 +31,7 @@ function Blogdetails(){
 
     return(
      <>
-     <MetaTags title="Blogs Details"/>
+     <MetaTags title="Blogs Details" des={" Blogs Details"}/>
      <div className="blogs-details py-5">
           <Pageheader name={"Blog Details"}/>
           <Details>

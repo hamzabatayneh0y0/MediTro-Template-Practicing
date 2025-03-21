@@ -58,7 +58,7 @@ function Blogs() {
   }, [index]);
   return (
     <>
-    <MetaTags title={"Blogs"}/>
+    <MetaTags title={"Blogs"} des={" Blogs"}/>
     <div className="blogs">
       <Pageheader name={"Blog Grid 3"} />
       <div className="container py-5">

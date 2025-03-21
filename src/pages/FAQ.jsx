@@ -6,7 +6,7 @@ import Question from "../c0mponents/question"
 function FAQs(){
     return(
      <>
-      <MetaTags title={"Faq"}/>
+      <MetaTags title={"Faq"} des={" Faq"}/>
        <div className="faqs">
         <Pageheader name={"Faq's"}/>
         <div className="questions py-5">

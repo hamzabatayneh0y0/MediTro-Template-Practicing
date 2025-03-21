@@ -8,7 +8,7 @@ function Newuser(){
 
     return(
         <>
-        <MetaTags title={"Register"}/>
+        <MetaTags title={"Register"} des={" Register"}/>
          <div className="register">
                 <div className="content py-5">
                   <div className="container">

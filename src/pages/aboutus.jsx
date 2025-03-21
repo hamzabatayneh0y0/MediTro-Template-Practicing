@@ -9,7 +9,7 @@ import Testimonialcomponent from "../c0mponents/testimonialcomponent"
 function Aboutus(){
     return(
        <>
-        <MetaTags title="AboutUs"/>
+        <MetaTags title="AboutUs" des={" AboutUs"}/>
        <div className="aboutus">
         <Pageheader name={"About US"}/>
        <AboutusComponent/>

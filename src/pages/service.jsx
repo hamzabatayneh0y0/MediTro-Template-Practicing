@@ -9,7 +9,7 @@ import MetaTags from "../c0mponents/meta";
 function Service(){
     return(
       <>
-      <MetaTags title={"Services"}/>
+      <MetaTags title={"Services"} des={" Services"}/>
         <div className="service">
             <Pageheader name={"Services"}/>
             <div className="content py-5">

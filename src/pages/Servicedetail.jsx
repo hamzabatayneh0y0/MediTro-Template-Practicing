@@ -13,7 +13,7 @@ import MetaTags from "../c0mponents/meta"
 function Servicedetails(){
     return(
 <>
-<MetaTags title={"Services Details"}/>
+<MetaTags title={"Services Details"} des={" Services Details"}/>
 <div className="service-details">
     <Pageheader name={"Service Details"}/>
     <Details>

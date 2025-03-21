@@ -5,7 +5,7 @@ import Pageheader from "../c0mponents/Pageheader"
 function Booking(){
     return(
     <>
-    <MetaTags title={"Booking"}/>
+    <MetaTags title={"Booking"}des={" Booking"}/>
 
 <div className="booking">
  <Pageheader name={"Booking"}/>

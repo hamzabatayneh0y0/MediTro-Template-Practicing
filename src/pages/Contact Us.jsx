@@ -11,7 +11,7 @@ import MetaTags from "../c0mponents/meta"
 function Contactus(){
     return(
       <>
-      <MetaTags title={"ContactUs"}/>
+      <MetaTags title={"ContactUs"} des={" ContactUs"}/>
        <div className="contactus">
         <Pageheader name={"Contact Us"}/>
         <div className="contact-form py-5">

@@ -35,7 +35,7 @@ function Home(){
 
     return(
      <>
-      <MetaTags title={"MediTro"}/>
+      <MetaTags title={"MediTro"} des={" MediTro"}/>
 
 <div className="home">
     {/* landing-section */}

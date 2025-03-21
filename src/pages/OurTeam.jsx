@@ -10,7 +10,7 @@ import MetaTags from "../c0mponents/meta";
 function Ourteam(){
     return(
       <>
-        <MetaTags title={"Our Team"}/>
+        <MetaTags title={"Our Team"} des={" Our Team"}/>
         
         <div className="ourteam">
                     <Pageheader name={"Our Team"}/>
