@@ -6,27 +6,7 @@ const MetaTags = ({title}) => {
       <title>{title}</title>
 
       {/* 🔹 Open Graph (Facebook, WhatsApp) */}
-      <meta property="og:title" content="MediTro-practicing" />
-      <meta property="og:description" content="MediTro template redesigning practicing" />
-      <meta property="og:image" content="https://i.postimg.cc/QdNn9qGk/4552998.png" />
-      <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-      <meta property="og:url" content="https://meditro-template-practicing.netlify.app/?=v1" />
-      <meta property="og:type" content="website" />
-
-      {/* 🔹 Twitter Card */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="MediTro-practicing" />
-      <meta name="twitter:description" content="MediTro template redesigning practicing" />
-      <meta name="twitter:image" content="https://i.postimg.cc/QdNn9qGk/4552998.png" />
-
-      {/* 🔹 Meta Tags for SEO */}
-      <meta name="description" content="MediTro template redesigning practicing" />
-      <meta name="keywords" content="meditro, practicing, health, healthcare ,React template" />
-      <meta name="author" content="hamza" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <meta name="robots" content="index, follow"/>
-
+      
     </Helmet>
   );
 };
