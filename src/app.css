@@ -222,7 +222,6 @@ img {
   border-radius: 10px;
   border: 2px solid rgba(86, 90, 207, 0.2);
   transition: var(--main-duration);
-  scroll-snap-align: start;
 }
 .newscard .card .card-img-top {
   border-radius: 10px;
@@ -898,7 +897,6 @@ form button:hover {
   display: flex;
   align-items: center;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
   -ms-overflow-style: none;
   scroll-behavior: smooth;
   width: 100%;
